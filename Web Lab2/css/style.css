@@ -1,0 +1,168 @@
+body {
+    background-color: #ABEBC6;
+    padding-left: 110px;
+    padding-top: 80px;
+    color: #131313;
+    font-family: Montserrat;
+}
+
+button {
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.7);
+    border: none;
+    height: 46px;
+    border-radius: 7px;
+    font-size: 18px;
+    font-family: Montserrat;
+    font-weight: 600;
+    line-height: 20px;
+    width: 101px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: all .2s ease-in-out;
+    color: #131313;
+    margin-right: 25px;
+}
+
+input {
+    background: #F4F6F7;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.7);
+    border: none;
+    height: 56px;
+    border-radius: 7px;
+    font-size: 20px;
+    font-family: Montserrat;
+    font-weight: 600;
+    line-height: 20px;
+    padding-left: 18px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    color: #131313;
+    margin-bottom: 45px;
+}
+
+h1 {
+    font-family: Montserrat;
+    font-weight: 500;
+    font-size: 50px;
+    line-height: 46px;
+    margin: 0;
+    margin-bottom: 30px;
+}
+
+h2 {
+    font-family: Montserrat;
+    margin: 0;
+    margin-bottom: 30px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 22px;
+}
+
+.words-table {
+    margin-top: 45px;
+    font-size: 20px;
+}
+
+.text {
+    font-family: Montserrat;
+    font-weight: lighter;
+    font-size: 20px;
+    line-height: 46px;
+}
+
+.textRow {
+    font-family: Montserrat;
+    font-weight: lighter;
+    font-size: 20px;
+    line-height: 46px;
+}
+
+.getWordUkrInput {
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 43px;
+    letter-spacing: 0.03em;
+    color: #131313;
+    flex: none;
+    order: 1;
+    align-self: center;
+    margin: 50px 0;
+}
+
+.getWordEngInput {
+    font-style: italic;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 43px;
+    letter-spacing: 0.03em;
+    color: #131313;
+    flex: none;
+    order: 1;
+    align-self: center;
+    margin: 50px 0;
+}
+
+.inputs-block {
+    display: flex;
+    align-items: flex-end;
+}
+
+.input-item {
+    margin-right: 40px;
+    max-width: 255px;
+}
+
+.input-item__title {
+    font-size: 20px;
+    line-height: 22px;
+    font-weight: 500;
+}
+
+table {
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.7);
+    border: none;
+    background: #F4F6F7;
+    border-radius: 7px;
+    font-size: 20px;
+    font-family: Montserrat;
+    font-weight: 900;
+    line-height: 20px;
+}
+
+td {
+    padding: 0 15px 0 15px;
+    border-bottom: 1px solid #131313;
+}
+
+.text {
+    font-family: Montserrat;
+    font-weight: lighter;
+    font-size: 20px;
+    line-height: 46px;
+}
+
+#addButton {
+    margin-left: 438px;
+    height: 50px;
+    width: 130px;
+}
+
+#addButton:hover {
+    background: #F7DC6F;
+}
+
+#editButtonUkr:hover {
+    background: rgb(173, 106, 218);
+}
+
+#editButtonEng:hover {
+    background: rgb(218, 106, 209);
+}
+
+#delButton:hover {
+    background: #EC7063;
+}

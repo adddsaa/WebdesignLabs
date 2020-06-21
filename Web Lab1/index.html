@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Lab1_WEB</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:300,500,600,700,900&display=swap">
+    <link rel="stylesheet" type="text/css" href="style/main.css">
+    <link rel="shortcut icon" href="./image.ico" type="image/x-icon">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-2 text-center" id="menu">
+                <h1>Навігація</h1>
+                <li class="list-item">
+                    <a href="index.html">Головна</a>
+                </li>
+                <li class="list-item">
+                    <a href="#" data-toggle="modal" data-target="#Register">Реєстрація<span class="sr-only">(current)</span></a>
+                    <li class="list-item">
+                        <a href="information.html">Завантажити</a>
+                    </li>
+                    <li class="list-item">
+                        <a class="link-item" data-toggle="modal" data-target="#Information" href="#">Зворотній зв'язок</a>
+                    </li>
+            </div>
+            <div class="col-10" id="main">
+                <div class="row">
+                    <div class="col-12">
+                        <header id="title">
+                            <p class="logo_oa">
+                                <a href="index.html">
+                                    <img src="img/logo.png " width="200" height="60" alt="logo">
+
+                                </a>
+                            </p>
+                            <h1 class="title text-center">Sublime text editor</h1>
+                        </header>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12">
+                        <article class="content">
+                            <p class="title2_header text-center">Найкращий редактор<br> тексту та коду</p>
+
+                            <p class="introduction">
+                                <img src="img/main1.jpg" height="500" width="500"> Sublime text!
+                            </p>
+                            <h1 class="text-center">Приємний для очей</h1>
+                            <h5 class="text-center">Легкий, мінімалістичний інтерфейс </h5>
+                            <p class="place">
+                                Гнучке налаштування
+                                <img src="img/main2.png" height="500" width="500">
+                            </p>
+                            <div class="info_oa text-center">
+                                <p>
+                                    Унікальний редактор, що дозволяє зручно працювати з будь-яким текстом та кодом.
+                                    <br>Плагіни для будь-яких завданнь</p>
+
+                            </div>
+
+                            <div class="info_review text-center">
+                                <p> Можливість відображати скриті символи</p>
+                                <p>Назначайте гарячі клавіші для будь-якої дії</p>
+                                <p>Мінікарта коду</p>
+                                <p>Розумне коментування коду</p>
+                                <p>Створюйте будь-які сніпети</p>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12">
+                        <aside class="blurb text-center">
+                            <p>//Реклама
+                                <img src="img/money.png" height="60" width="60" alt="money">
+                            </p>
+                        </aside>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12">
+                        <footer class="rounded-top" id="info">
+                            <div class="row">
+                                <div class="col-8 text-center">
+                                    <p>Шоломіцький Іван КВ-72 Варіант-24</p>
+                                </div>
+                                <div class="col-4">
+                                    <li>
+                                        <a href="https://github.com/adddsaa">
+                                            <img src="img/github.png" alt="github"> GitHub</a>
+                                    </li>
+                                </div>
+                            </div>
+
+                        </footer>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="modal fade" id="Register" tabindex="-1" role="dialog" aria-labelledby="TicketLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered  modal-md" role="document">
+                <div class="modal-content">
+                    <div class=" modal-header">
+                        <h5 class="modal-title" id="TicketLabel">Програмний продукт</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="container-row">
+                            <div class="price text-center">
+                                <h3>Реєстрація.</h3>
+                                <h4>Для завантаження потрібна реєстрація та оплатіта, скільки бажаєте.</h4>
+                            </div>
+                            <form>
+                                <div class="input-group col-md-10 mb-4">
+                                    <div class="input-group-prepend">
+                                        <span class="input-group-text " id="email">E-mail</span>
+                                    </div>
+                                    <input type="text" class="form-control" aria-label="Email" aria-describedby="email">
+                                </div>
+                                <div class="input-group col-md-10 mb-4">
+                                    <div class="input-group-prepend">
+                                        <span class="input-group-text " id="count">Ціна</span>
+                                    </div>
+                                    <input type="text" class="form-control" aria-label="Count" aria-describedby="count">
+                                </div>
+                                <div class="input-group col-md-10 mb-4">
+                                    <div class="input-group-prepend">
+                                        <span class="input-group-text " id="number_card">Номер картки</span>
+                                    </div>
+                                    <input type="text" class="form-control" aria-label="Number_card" aria-describedby="number_card">
+                                </div>
+                                <div class="input-group col-md-10 mb-4">
+                                    <div class="input-group-prepend">
+                                        <span class="input-group-text " id="cvv2_card">CVV2</span>
+                                    </div>
+                                    <input type="password" class="form-control" aria-label="Cvv2_card" aria-describedby="Cvv2_card">
+                                </div>
+								
+                            </form>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <div class="container-fluid ">
+                            <div class="row justify-content-md-center">
+                                <button type="submit" class="btn- btn-success btn-lg">Купити</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="modal fade" id="Information" tabindex="-1" role="dialog" aria-labelledby="InformationLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered  modal-md" role="document">
+                <div class="modal-content">
+                    <div class=" modal-header">
+                        <h5 class="modal-title " id="InformationLabel">Зворотній зв'язок</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="container-fluid">
+                            <h1 class="info_info text-center"> sholomitskyiv@gmail.com</h1>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <div class="container-fluid ">
+                            <div class="row justify-content-md-center">
+                                <button type="button" class="btn btn-warning btn-lg " data-dismiss="modal">Закрити</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
